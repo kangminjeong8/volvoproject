@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .btn{
+            display: inline-block;
+            border-radius: 4px;
+            background-color: #777;
+            border: none;
+            color: #FFFFFF;
+            text-align: center;
+            font-size: 15px;
+            padding: 10px;
+            width: 225px;
+            transition: all 0.5s;
+            cursor: pointer;
+            margin: 5px;
+        }
+        
+        .btn span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+        }
+
+        .btn span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+        }
+
+        .btn:hover span {
+        padding-right: 25px;
+        }
+
+        .btn:hover span:after {
+        opacity: 1;
+        right: 0;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h3> 
+        <img src="img/award/crown.png" alt="crown" width="290px" height="290px">
+        <br>
+        <button class="btn" onclick="window.open('https://www.youtube.com/watch?v=IPSA6wxGmdQ')"><span>소개 영상 보러가기</span> </button>
+    </h3>   
+    
+    <input type="checkbox" class="x"> 오늘 하루 이 창을 열지 않기
+    
+    <script>
+        var x = document.querySelector(".x"); //close는 변수로 쓰이면 안된다
+        x.onclick = function() {
+
+            var date = new Date();
+            var date2 = new Date(date.getFullYear(), date.getMonth(), date.getDate()+1, 0, 0, 0);
+            
+            document.cookie = "Cookie=123; path=/; expires="+ date2.toUTCString();
+            window.close("popup.html");
+
+    }
+
+    
+
+
+
+
+
+
+
+    
+    </script>
+    
+</body>
+</html>

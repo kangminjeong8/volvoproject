@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h3> 
+        <img src="img/award/gold.png" alt="gold" width="290px" height="290px">
+    </h3>   
+    
+    <input type="checkbox" class="y"> 오늘 하루 이 창을 열지 않기
+    
+    <script>
+        var y = document.querySelector(".y"); //close는 변수로 쓰이면 안된다
+        y.onclick = function() {
+
+            var date3 = new Date();
+            var date4 = new Date(date3.getFullYear(), date3.getMonth(), date3.getDate()+1, 0, 0, 0);
+            
+            document.cookie = "Cookie2=123; path=/; expires="+ date4.toUTCString();
+            window.close("popup2.html");
+            }
+    
+    </script>
+    
+</body>
+</html>

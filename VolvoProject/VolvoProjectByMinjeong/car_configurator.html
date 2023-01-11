@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- css 링크 -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- 제이쿼리 링크 -->
+    <script src="jquery/jquery-3.6.3.min.js"></script>
+
+    <!-- 부트스트랩 테마가 필요하면 이쯤 추가.. -->
+
+    <!-- js링크 -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- 커스터마이징 디자인(가장 밑에 만들어 줄 것)-->
+    <link rel="stylesheet" href="car_configurator.css">
+
+
+</head>
+
+<body>
+
+    <header class="headerBySemin">
+        <div class="leftHeaderBySemin">
+            <a href="../VolvoProjectByMinjae/index.html" class="leftHeaderChildBySemin"><img src="img/volvomark.png" alt="" width="100px"></a>
+            <div class="clockBySemin newYorkTime leftHeaderChildBySemin"></div>
+
+        </div>
+        <div class="rightHeaderBySemin">
+
+            <button class="rightHeaderChildBySemin NationByMJ AmericaByMJ"><img src="img/Ulogo.png" alt=""
+                    width="30px"></button>
+            <button onclick="location.href='../VolvoProjectByJisoo/index_list.html'" class="rightHeaderChildBySemin"><span>Our Cars</span></button>
+            <button onclick="location.href='../VolvoProjectBySemin/our-heritage.html'" class="rightHeaderChildBySemin"><span>Our Heritage</span></button>
+        </div>
+    </header>
+
+    <section class="section1">
+        <div class=main>
+            <h1>S90 RECHARGE DESIGN</h1>
+            <p>품위 있고 직관적이며 책임을 중시하는 솔루션입니다.</p>
+            <p>이는 궁극의 스칸디나비안 럭셔리 플러그인 하이브리드 세단입니다. </p>
+        </div>
+
+        <article>
+            <div class="container-fluid myslide">
+                <div clss="row">
+                    <div class="myslide">
+
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" data-slide-to="1"></li>
+                                <li data-target="#myCarousel" data-slide-to="2"></li>
+                                <li data-target="#myCarousel" data-slide-to="3"></li>
+                                <li data-target="#myCarousel" data-slide-to="4"></li>
+                            </ol>
+
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img src="img/detail0.jpg" alt="front">
+                                </div>
+
+                                <div class="item">
+                                    <img src="img/detail1.jpg" alt="leftside">
+                                </div>
+
+                                <div class="item">
+                                    <img src="img/detail2.jpg" alt="side">
+                                </div>
+
+                                <div class="item">
+                                    <img src="img/detail3.jpg" alt="leftside2">
+                                </div>
+
+                                <div class="item">
+                                    <img src="img/detail4.jpg" alt="back">
+                                </div>
+                            </div>
+
+                            <!-- Left and right controls -->
+                            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+    </section>
+
+    <section class="section2">
+        <section class="section2_1">
+            <ul class="level-text">
+                <div class="level">
+                    <h2>LEVEL</h2>
+                    <em>Ultimate</em>
+                    <span>KRW 87,400,000 *</span>
+                    <br>
+                    <br>
+                    <span>포함 사항</span>
+                    <br>
+                    <br>
+
+                    <span>전동식 파노라믹 선루프</span><br>
+                    <span>Bowers & Wilkins 프리미엄 사운드 시스템</span><br>
+                    <span>파일럿 어시스트</span><br>
+                    <span>그 외</span><br><br>
+                    <button type="button" id="modal_btn">자세히 보기</button><br>
+                    <div class="black_bg">
+                        <div class="modal_wrap">
+                            <div class="modal_close"><a href="#a">close</a></div>
+                            <div class="modal_text">
+                                <h2>Ultimate</h2><br>
+                                <span> 최적의 편안함, 고급 연결 기능 및 뛰어난 스칸디나비안 스타일을 위한 최고 수준의 장치를 경험하십시오.</span>
+
+                                <h3>하이라이트</h3>
+                                <img src="img/modalimg1.jpg" width="100px">　외관: 파노라믹 글라스 루프<br>
+                                <img src="img/modalimg2.jpg" width="100px">　기술 및 사운드: Harman/Kardon 프리미엄 사운드 시스템<br>
+                                <img src="img/modalimg3.jpg" width="100px">　운전자 지원: 파일럿 어시스트
+                                <br>
+                                <h3>포함된 모든 기능</h3>
+                                <span>고성능, 기술 및 사운드, 안전 및 보안, 온도 조절, 외관, 운전자 지원, 좌석</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+
+            <script>
+                window.onload = function () {
+
+                    function onClick() {
+                        document.querySelector('.modal_wrap').style.display = 'block';
+                        document.querySelector('.black_bg').style.display = 'block';
+                    }
+                    function offClick() {
+                        document.querySelector('.modal_wrap').style.display = 'none';
+                        document.querySelector('.black_bg').style.display = 'none';
+                    }
+
+                    document.getElementById('modal_btn').addEventListener('click', onClick);
+                    document.querySelector('.modal_close').addEventListener('click', offClick);
+
+                };
+
+            </script>
+        </section>
+
+        <section class="section2_2">
+            <div class="powertrain">
+                <h2>POWER TRAIN</h2>
+                <em>T8 AWD plug-in hybrid</em>
+                <span>표준</span>
+                <div>
+                    <br>
+                    <img width="30" height="20" src="img/gasoline2.png">
+                    <small>전기/가솔린</small><br>
+                    <img width="50" height="80" src="img/awd2.png">
+                    <small>AWD</small><br>
+                    <img width="30" height="" src="img/auto2.png">
+                    <small>Automatic</small><br>
+                </div>
+                <div class="powertrain2">
+                    <span>1회 충전 주행 거리(복합): 59km</span><br>
+                    <span>0-100 km/h: 4.8s</span>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section class="section3">
+        <h2>TO SELECT A VEHICLE COLOR</h2>
+
+        <article>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="myslide">
+                        <div id="myCarousel2" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" data-slide-to="1"></li>
+                                <li data-target="#myCarousel" data-slide-to="2"></li>
+                                <li data-target="#myCarousel" data-slide-to="3"></li>
+                            </ol>
+
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                                <div class="item mj active">
+                                    <img src="img/black1.jpg" alt="..." width="80%" height="80%">
+                                </div>
+
+                                <div class="item mj">
+                                    <img src="img/black2.jpg" alt="..." width="80%" height="80%">
+                                </div>
+
+                                <div class="item mj">
+                                    <img src="img/black3.jpg" alt="..." width="80%" height="80%">
+                                </div>
+
+                                <div class="item mj">
+                                    <img src="img/black4.jpg" alt="..." width="80%" height="80%">
+                                </div>
+                            </div>
+
+                            <!-- Left and right controls -->
+                            <a class="left carousel-control" href="#myCarousel2" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#myCarousel2" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+
+        <div class="infobtn">
+            <button type="button" value="black" class="colorbtn" style="background-color: black;"></button>
+            <button type="button" value="blue" class="colorbtn" style="background-color: rgb(79, 90, 120);"></button>
+            <button type="button" value="grey" class="colorbtn" style="background-color: gray"></button>
+            <button type="button" value="white" class="colorbtn" style="background-color: whitesmoke;"></button>
+        </div>
+
+        <div class="info1">
+            <p>717 Onyx Black</p>
+            <p>추가 비용 없음</p>
+            <p>햇빛이 강한 곳에서는 화려하게 반짝이고 어두운 곳에서는 순수하게 진한 색감을 강조하는 우아하고 진한 블랙 메탈릭 컬러.</p>
+        </div>
+        <div class="info2">
+            <p>723 Denim Blue</p>
+            <p>추가 비용 없음</p>
+            <p>농도가 짙고 우아하고 매끄러운 마감이 적용된 진한 스모키 블루 메탈릭 컬러.</p>
+        </div>
+        <div class="info3">
+            <p>735 Silver Dawn</p>
+            <p>추가 비용 없음</p>
+            <p>따뜻한 느낌의 노란색에서 차갑고 더 순수한 블루 색상까지 변화하는 현대적 실버 메탈릭 컬러.</p>
+        </div>
+        <div class="info4">
+            <p>707 Crystal White pearl</p>
+            <p>표준</p>
+            <p>외관이 부드러운 느낌이 나도록 부드럽고 깊은 진주 광택 효과를 제공하는 반짝이는 화이트 펄 컬러.</p>
+        </div>
+
+    </section>
+
+    <section class="section6">
+        <h2>휠</h2><br>
+        <img src="img/wheel.jpg" width="60%"><br>
+        <div class = "wheeltxt">
+            <em>20” 8-멀티 스포크 블랙 다이아몬드 컷</em><br>
+            <span>표준</span>
+        </div>
+    </section>
+
+    <section class="section4">
+
+        <h2>TO SELECT SEAT COLOR</h2><br>
+
+        <div class="seat">
+            <img src="img/blackseat1.jpg" class="seat2" width="50%" height="100%">
+            <img src="img/blackseat2.jpg" class="seat2" width="50%" height="100%"><br>
+            <img src="img/blackseat3.jpg" class="seat2" width="50%" height="100%">
+        </div>
+
+
+        <br>
+        <br>
+        <div class=seatbtn>
+            <button type="button" value="black" class="seatinfobtn" style="background-color: rgb(44, 46, 48);"></button>
+            <button type="button" value="brown" class="seatinfobtn"
+                style="background-color: rgb(182, 149, 115);"></button>
+            <button type="button" value="grey" class="seatinfobtn"
+                style="background-color: rgb(199, 198, 195)"></button>
+        </div>
+
+        <div class="seatinfo1">
+            <p>Charcoal & Charcoal</p>
+            <p>추가 비용 없음</p>
+            <p>그레이 애쉬 데코</p>
+        </div>
+        <div class="seatinfo2">
+            <p>Amber & Charcoal</p>
+            <p>표준</p>
+            <p>피치드 오크 데코</p>
+        </div>
+        <div class="seatinfo3">
+            <p>Blond & Blond Charcoal</p>
+            <p>추가 비용 없음</p>
+            <p>그레이 애쉬 데코</p>
+        </div>
+
+        <script>
+            var seatbtn = document.querySelector(".seatbtn");
+            var seatinfo1 = document.querySelector(".seatinfo1");
+            var seatinfo2 = document.querySelector(".seatinfo2");
+            var seatinfo3 = document.querySelector(".seatinfo3");
+            var seatimg = document.querySelectorAll(".seat img");
+
+            seatbtn.onclick = function bbb(event) {
+                console.log(event.target.value);
+                if (event.target.tagName == "DIV") return;
+                if (event.target.value == "black") {
+                    seatinfo1.style.display = "block";
+                    seatinfo2.style.display = "none";
+                    seatinfo3.style.display = "none";
+                    for (var i = 0; i <= 2; i++) {
+                        seatimg[i].src = "img/" + event.target.value + "seat" + (i + 1) + ".jpg";
+                    }
+
+                } else if (event.target.value == "brown") {
+                    seatinfo1.style.display = "none";
+                    seatinfo2.style.display = "block";
+                    seatinfo3.style.display = "none";
+                    for (var i = 0; i <= 2; i++) {
+                        seatimg[i].src = "img/" + event.target.value + "seat" + (i + 1) + ".jpg";
+                    }
+                } else if (event.target.value == "grey") {
+                    seatinfo1.style.display = "none";
+                    seatinfo2.style.display = "none";
+                    seatinfo3.style.display = "block";
+                    for (var i = 0; i <= 2; i++) {
+                        seatimg[i].src = "img/" + event.target.value + "seat" + (i + 1) + ".jpg";
+                    }
+                }
+            }
+
+        </script>
+
+    </section>
+
+    <section class="section5">
+
+        <h2>YOUR DESIGN HAS BEEN COMPLETED!</h2><br>
+        <div>
+            <img src="img/black1.jpg" class="resultimg" width="80%" height="80%">
+        </div>
+        <div class="text">
+            <em font-size="30em">MY S90 RECHARGE</em><br><br>
+            <div class="PriceByMJ">PRICE : KRW 87,400,000*</div>
+        </div>
+
+    <script>
+        var infobtn = document.querySelector(".infobtn");
+        var info1 = document.querySelector(".info1");
+        var info2 = document.querySelector(".info2");
+        var info3 = document.querySelector(".info3");
+        var info4 = document.querySelector(".info4");
+        var resultimg = document.querySelector(".section5 img");
+        var img = document.querySelectorAll(".carousel-inner .mj img");
+
+
+        infobtn.onclick = function aaa(event) {
+            if (event.target.tagName == "DIV") return;
+            console.log(event.target.value);
+            if (event.target.value == "black") {
+                info1.style.display = "block";
+                info2.style.display = "none";
+                info3.style.display = "none";
+                info4.style.display = "none";
+                resultimg.src = "img/" + event.target.value + "1.jpg";
+
+                for (var i = 0; i <= 3; i++) {
+                    img[i].src = "img/" + event.target.value + (i + 1) + ".jpg";
+                }
+
+            } else if (event.target.value == "blue") {
+                info1.style.display = "none";
+                info2.style.display = "block";
+                info3.style.display = "none";
+                info4.style.display = "none";
+                resultimg.src = "img/" + event.target.value + "1.jpg";
+                for (var i = 0; i <= 3; i++) {
+                    img[i].src = "img/" + event.target.value + (i + 1) + ".jpg";
+                }
+            } else if (event.target.value == "grey") {
+                info1.style.display = "none";
+                info2.style.display = "none";
+                info3.style.display = "block";
+                info4.style.display = "none";
+                resultimg.src = "img/" + event.target.value + "1.jpg";
+                for (var i = 0; i <= 3; i++) {
+                    img[i].src = "img/" + event.target.value + (i + 1) + ".jpg";
+                }
+            } else if (event.target.value == "white") {
+                info1.style.display = "none";
+                info2.style.display = "none";
+                info3.style.display = "none";
+                info4.style.display = "block";
+                resultimg.src = "img/" + event.target.value + "1.jpg";
+                for (var i = 0; i <= 3; i++) {
+                    img[i].src = "img/" + event.target.value + (i + 1) + ".jpg";
+                }
+            }
+        }
+
+        var NationByMJ = document.querySelector(".NationByMJ");
+        var PriceByMJ = document.querySelector(".PriceByMJ");
+        var NationByMJ2 = document.querySelector(".NationByMJ img");
+        var key = "0114f68b353b498492d5c0fc04b92bd4";
+        var clock = document.querySelector(".clockBySemin");
+
+        function getKoreanClock() {
+            var date = new Date();
+            var hours = String(date.getHours()).padStart(2, "0");
+            var min = String(date.getMinutes()).padStart(2, "0");
+            var sec = String(date.getSeconds()).padStart(2, "0");
+            clock.innerText = hours + " : " + min + " : " + sec;
+        }
+
+        function getNewYorkClock() {
+            var curr = new Date();
+            var utc = curr.getTime() + (curr.getTimezoneOffset() * 60 * 1000);
+            var NY_TIME_DIFF = -5 * 60 * 60 * 1000;
+            var ny_curr = new Date(utc + (NY_TIME_DIFF));
+            var hours = String(ny_curr.getHours()).padStart(2, "0");
+            var min = String(ny_curr.getMinutes()).padStart(2, "0");
+            var sec = String(ny_curr.getSeconds()).padStart(2, "0");
+            clock.innerText = hours + " : " + min + " : " + sec;
+        }
+
+        Ktimer = "";
+        NYtimer = "";
+
+
+        function startKoreanTimer() {
+
+            function getKoreanClock() {
+                var date = new Date();
+                var year = String(date.getFullYear()).substring(2, 4);
+                var month = String(date.getMonth() + 1).padStart(2, "0");
+                var day = String(date.getDate()).padStart(2, "0");
+                var hours = String(date.getHours()).padStart(2, "0");
+                var min = String(date.getMinutes()).padStart(2, "0");
+                var sec = String(date.getSeconds()).padStart(2, "0");
+                clock.innerText = year+month+day+ " " + hours + " : " + min + " : " + sec + "KR";
+            }
+
+            Ktimer = setInterval(getKoreanClock, 1000);
+        }
+
+        function stopKTimer() {
+            clearInterval(Ktimer);
+        }
+
+        function startNewYorkTimer() {
+
+            function getNewYorkClock() {
+            var curr = new Date();
+            var utc = curr.getTime() + (curr.getTimezoneOffset() * 60 * 1000);
+            var NY_TIME_DIFF = -5 * 60 * 60 * 1000;
+            var ny_curr = new Date(utc + (NY_TIME_DIFF));
+            var year = String(ny_curr.getFullYear()).substring(2, 4);
+            var month = String(ny_curr.getMonth() + 1).padStart(2, "0");
+            var day = String(ny_curr.getDate()).padStart(2, "0");
+            var hours = String(ny_curr.getHours()).padStart(2, "0");
+            var min = String(ny_curr.getMinutes()).padStart(2, "0");
+            var sec = String(ny_curr.getSeconds()).padStart(2, "0");
+            clock.innerText = year+month+day+ " " + hours + " : " + min + " : " + sec + "NY";
+        }
+
+            NYtimer = setInterval(getNewYorkClock, 1000);
+        }
+
+        function stopNYTimer() {
+            clearInterval(NYtimer);
+        }
+
+        
+        
+
+
+        NationByMJ.onclick = function () {
+
+            NationByMJ.classList.toggle("AmericaByMJ");
+
+            if (document.querySelector(".NationByMJ").classList.contains("AmericaByMJ")) {
+                PriceByMJ.innerHTML = "PRICE : KRW 87,400,000*";
+                NationByMJ2.src = "img/Ulogo.png";
+                console.log(NationByMJ.src);
+
+
+            } else if (!document.querySelector(".NationByMJ").classList.contains("AmericaByMJ")) {
+                NationByMJ2.src = "img/Klogo.png";
+                fetch("https://api.currencyfreaks.com/latest?apikey=0114f68b353b498492d5c0fc04b92bd4&format=json")
+                    .then(function (res) {
+                        return res.json();
+                    })
+                    .then(function (data) {
+                        var krw = data.rates.KRW;
+                        var usd = Math.round(87400000 / krw);
+                        PriceByMJ.innerHTML = "PRICE : USD " + usd;
+                    })
+            }
+
+
+        }
+
+        NationByMJ2.onclick = function () {
+            document.querySelector(".clockBySemin").classList.toggle("newYorkTime");
+            if (document.querySelector(".clockBySemin").classList.contains("newYorkTime")) {
+                startKoreanTimer();
+                stopNYTimer();
+                NationByMJ2.src = "img/Ulogo.png";
+
+            } else if (!document.querySelector(".clockBySemin").classList.contains("newYorkTime")) {
+                startNewYorkTimer();
+                stopKTimer();
+                NationByMJ2.src = "img/Klogo.png";
+
+            }
+        }
+
+        startKoreanTimer();
+
+
+    </script>
+    </section>
+
+
+
+</body>
+
+</html>

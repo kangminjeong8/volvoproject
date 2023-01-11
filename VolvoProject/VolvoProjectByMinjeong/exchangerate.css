@@ -1,0 +1,85 @@
+body{
+    background-color: #073870;
+}
+
+#square {
+    width: 700px;
+    height: 800px;
+    color: white;
+    background-color: white;
+    border: 1px solid #999;
+    margin: 0 auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    padding-top: 30px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+#square img {
+    margin-top: 20px;
+}
+
+#square .maintext {
+    color: black;
+    font-size: 23px;
+    margin-top: 30px;
+}
+
+#square .cal {
+    border-radius: 20px;
+    border: 1px solid #999;
+    height: 70px;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+.cal .text1 {
+    float: right;
+    margin: 0 auto;
+    text-align: right;
+    margin-right: 20px;
+    padding: 10px;
+    border: none;
+    font-size: 30px;
+    margin-top: 8px;
+}
+
+.cal .text2 {
+    float: right;
+    margin: 0 auto;
+    text-align: right;
+    margin-right: 20px;
+    padding: 10px;
+    border: none;
+    font-size: 30px;
+    margin-top: 8px;
+}
+
+.caltxt1 {
+    color: rgb(69, 58, 161);
+    font-size: 30px;
+    float: left;
+    margin: 15px 0px 15px 60px;
+    border: none;
+    background-color: white;
+}
+
+.caltxt2 {
+    color: black;
+    font-size: 30px;
+    float: right;
+    margin-right: 60px;
+    margin: 15px 60px 15px 0px;
+}
+
+.cal .nat {
+    width: 100px;
+    height: 60px;
+    font-size: 30px;
+    margin: 5px;
+    margin-left: 10px;
+    border: none;
+}

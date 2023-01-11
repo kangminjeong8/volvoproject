@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.headerBySemin {
+    position: fixed;
+    overflow: hidden;
+    z-index: 1000;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+}
+
+.headerBySemin .leftHeaderBySemin {
+    padding-top: 20px;
+    padding-left: 20px;
+    float: left;
+    overflow: hidden;
+}
+
+
+.headerBySemin .leftHeaderBySemin .leftHeaderChildBySemin {
+    float: left;
+    padding-right: 20px;
+}
+
+.headerBySemin .leftHeaderBySemin .clockBySemin {
+    padding-top: 2px;
+}
+
+
+.headerBySemin .rightHeaderBySemin {
+    padding: 20px;
+    float: right;
+    padding-right: 20px;
+}
+
+.headerBySemin .rightHeaderBySemin .rightHeaderChildBySemin {
+    display: inline-block;
+    width: 80px;
+    font-weight: 600;
+    border: none;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: white;
+}
+
+.headerBySemin .rightHeaderBySemin .rightHeaderChildBySemin span:hover {
+    
+    border-bottom: 2px solid #777;
+}
+
+.firstSectionBySemin{
+    padding-top: 30px;
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.firstSectionBySemin div {
+    padding: 10px;
+}
+
+
+
+
+.firstSectionBySemin h2 {
+    font-size: 40px;
+    font-weight: 800;
+    padding: 10px;
+}
+
+.firstSectionBySemin button {
+    z-index: 10;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.firstSectionBySemin .secondbtnBySemin {
+    border-bottom: 3px solid #777;
+}
+
+.firstSectionBySemin button:hover {
+    border-bottom: 3px solid #777;
+}
+
+
+
+
+.firstSectionBySemin p {
+    padding-top: 30px;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+.secondSectionBySemin {
+    width: 1024px;
+    margin: 0 auto;
+    height: 600px;
+    margin-bottom: 30px;
+}
+
+.secondSectionBySemin .videoWrapperBySemin {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.secondSectionBySemin .videoWrapperBySemin .videoBySemin {
+    position: absolute;
+}
+
+.secondSectionBySemin .videoWrapperBySemin .onVideoBySemin {
+    position: absolute;
+    color: white;
+    top: 50px;
+    left: 20px;
+    width: 100%;
+    margin : 0 auto;
+}
+
+.secondSectionBySemin .videoWrapperBySemin .onVideoBySemin h3 {
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+
+.secondSectionBySemin .videoWrapperBySemin .onVideoBySemin button {
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 380px;
+    cursor: pointer;
+    color: black;
+}
+
+
+
+.thirdSectionBySemin {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.thirdSectionBySemin h2 {
+    font-size: 40px;
+    font-weight: 800;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.thirdSectionBySemin-parent {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.thirdSectionBySemin-parent img {
+    width: 499px;
+    height: 374px;
+}
+
+.thirdSectionBySemin-parent .thirdSectionBySemin-child {
+    float: left;
+    box-sizing: border-box;
+}
+
+.seminBox-left {
+    width: 499px;
+    height: 374px;
+    padding: 20px;
+    padding-right: 80px;
+}
+
+.seminBox-right {
+    width: 499px;
+    height: 374px;
+    padding: 20px;
+    padding-left: 100px;
+
+}
+
+.seminBox-left h3 {
+    padding: 20px;
+    font-size: 25px;
+}
+
+.seminBox-right h3 {
+    padding: 20px;
+    font-size: 25px;
+}
+
+.seminBox-left p {
+    padding: 10px;
+    margin-right: 60px;
+    color: gray;
+}
+
+.seminBox-right p {
+    padding: 10px;
+    margin-right: 60px;
+    color: gray;
+}
+
+.fourthSectionBySemin {
+    width: 1232px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.fourthSectionBySemin img {
+    position: absolute;
+    width: 100%;
+}
+
+.fourthSectionBySemin .fourthSectionChildBySemin {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    width: 360px;
+}
+
+.fourthSectionBySemin .fourthSectionChildBySemin h3 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.fourthSectionBySemin .fourthSectionChildBySemin p {
+    color: white;
+    margin-bottom: 100px;
+}
+
+.fourthSectionBySemin .fourthSectionChildBySemin button {
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}

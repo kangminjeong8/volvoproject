@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.headerBySemin {
+    position: fixed;
+    overflow: hidden;
+    z-index: 1000;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+}
+
+.headerBySemin .leftHeaderBySemin {
+    padding-top: 20px;
+    padding-left: 20px;
+    float: left;
+    overflow: hidden;
+}
+
+
+.headerBySemin .leftHeaderBySemin .leftHeaderChildBySemin {
+    float: left;
+    padding-right: 20px;
+}
+
+.headerBySemin .leftHeaderBySemin .clockBySemin {
+    padding-top: 2px;
+}
+
+
+.headerBySemin .rightHeaderBySemin {
+    padding: 20px;
+    float: right;
+    padding-right: 20px;
+}
+
+.headerBySemin .rightHeaderBySemin .rightHeaderChildBySemin {
+    display: inline-block;
+    width: 80px;
+    font-weight: 600;
+    border: none;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: white;
+}
+
+.headerBySemin .rightHeaderBySemin .rightHeaderChildBySemin span:hover {
+    
+    border-bottom: 2px solid #777;
+}
+
+/* 상단부 */
+.box {
+    padding-top: 100px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.title {
+    margin: 50px;
+}
+
+.title .left {
+    float: left;
+}
+
+.title .right {
+    float: right;
+}
+
+.title .right .font {
+    font-weight: lighter;
+}
+
+.main {
+    padding-top: 200px;
+}
+
+/* car */
+#car {
+    cursor:pointer;
+    width: 324px;
+    height: 194px;
+
+}
+
+#car:hover {
+    border: 2px solid #777;
+    border-radius : 10px;
+    overflow: hidden
+}
+
+img {
+    max-width: 100%; 
+}
+
+.name{
+    font-weight: bolder;
+}
+
+/* crossover */
+.crossover {
+    margin: 50px;
+}
+.crossover_detail{
+    margin: 50px;
+
+}
+
+/* SUV */
+.SUVS {
+    margin: 50px;
+}
+
+.SUVS_detail_1 {
+    display: flex;
+    margin: 50px;
+    justify-content: space-between;
+}
+
+.SUVS_detail_2 {
+    display: flex;
+    margin: 50px;
+    justify-content: space-between;
+}
+
+.SUVS_detail_3 {
+    display: flex;
+    margin: 50px;
+}
+
+.SUVS_detail_3 .SUVS7_detail{
+    margin-right : 120px    
+}
+
+/* SEDANS */
+.SEDANS {
+    margin: 50px;
+}
+
+.SEDANS_detail_1{
+    display: flex;
+    margin: 50px;
+    justify-content: space-between;
+    
+}
+
+.SEDANS_detail_2{
+    display: flex;
+    margin: 50px;
+    justify-content: space-between;
+}
+
+/* ESTATE */
+.ESTATES {
+    margin: 50px;
+}
+.ESTATES_detail_1{
+    display: flex;
+    margin: 50px;
+    justify-content: space-between;
+}
+
+.ESTATES_detail_2{
+    display: flex;
+    margin: 50px;
+    justify-content: space-between;
+}

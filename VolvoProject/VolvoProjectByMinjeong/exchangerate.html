@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="exchangerate.css">
+
+</head>
+
+
+<body class="body">
+
+    <div id="square">
+
+        <img src="img/exchangelogo.jpg"><br>
+
+        <div class="maintext">
+            <span>EXCHANGE RATE CALCULATOR</span><br>
+            <span>Choose the currency and the amounts to get the exchange rate</span>
+        </div>
+
+        <div class="cal">
+            <input type="number" class="text1">
+            <select class="nat">
+                <option>KRW</option>
+                <option>USD</option>
+                <option>EUR</option>
+                <option>JPY</option>
+            </select>
+        </div>
+
+        <div>
+            <button type="button" class="caltxt1">SWAP</span>
+        </div>
+
+        <div class="cal">
+            <input type="number" class="text2">
+            <select class="nat">
+                <option>USD</option>
+                <option>EUR</option>
+                <option>KRW</option>
+                <option>JPY</option>
+            </select>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
+
+<script>
+    var key = "0114f68b353b498492d5c0fc04b92bd4";
+    
+    var krw = fetch("https://api.currencyfreaks.com/latest?apikey=0114f68b353b498492d5c0fc04b92bd4&format=json")
+    .then(function(res){
+        return res.json();
+    })
+    .then(function(data){
+        var krw = data.rates.KRW;
+        var usd = 87400000 / krw;
+        console.log(usd);
+    })  
+
+</script>

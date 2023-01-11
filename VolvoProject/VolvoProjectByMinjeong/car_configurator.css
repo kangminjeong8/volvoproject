@@ -1,0 +1,304 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    line-height: none;
+}
+
+/* ===== 헤더 ====== */
+.headerBySemin {
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    z-index: 1000;
+}
+
+.headerBySemin .leftHeaderBySemin {
+    padding-top: 20px;
+    padding-left: 20px;
+    float: left;
+    overflow: hidden;
+}
+
+.headerBySemin .leftHeaderBySemin .leftHeaderChildBySemin {
+    float: left;
+    padding-right: 20px;
+}
+
+.headerBySemin .leftHeaderBySemin .clockBySemin {
+    padding-top: 2px;
+}
+
+
+.headerBySemin .rightHeaderBySemin {
+    padding: 20px;
+    float: right;
+    padding-right: 20px;
+}
+
+.headerBySemin .rightHeaderBySemin .rightHeaderChildBySemin {
+    display: inline-block;
+    width: 80px;
+    font-weight: 600;
+    border: none;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: white;
+}
+
+.headerBySemin .rightHeaderBySemin .rightHeaderChildBySemin span:hover {
+    
+    border-bottom: 2px solid #777;
+}
+
+/* ====== 메인 글 ====== */
+
+.section1 img {
+    max-width: 20%;
+    height: 20%;
+    display: block;
+    padding: 30px;
+    margin: 0px auto;
+}
+
+.btn {
+    border-radius: 0;
+}
+.section1 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.main {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main h1 {
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.main p {
+    margin-top: 10px;
+}
+
+.main .mainimage {
+    padding: 50px;
+    max-width: 100%;
+}
+
+/* ======== 배너 ========*/
+
+.myslide {
+    padding: 0;
+    margin: 0 auto;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+    background-image: none;
+}
+
+/* ======== section2 ========= */
+
+.section2 {
+    overflow: hidden;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+
+.section2_1 {
+    border: 2px solid gray;
+    border-radius: 10px;
+    height: 380px;
+    width: 380px;
+    margin: 0 auto;
+}
+
+.section2_2 {
+    border: 2px solid gray;
+    border-radius: 10px;
+    height: 380px;
+    width: 380px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.section2 img {
+    height: 80%;
+}
+
+
+
+.level-text {
+    margin: 20px;
+
+}
+
+.powertrain {
+    margin: 20px;
+}
+
+.powertrain2 {
+    margin: 20px 0px 20px 0px
+}
+
+/* 차량 색상 변경하기 */
+.myslide2 {
+    padding: 0;
+    margin: 0 auto;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+    background-image: none;
+}
+
+.section3 {
+    text-align: center;
+    
+}
+
+.section3 img {
+    max-width: 20%;
+    height: 20%;
+    display: block;
+    padding: 30px;
+    margin: 0px auto;
+}
+
+.section3 .colorbtn {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #999;
+    margin: 5px;
+}
+
+.section3 .colorbtn:hover {
+    border: 3px solid ;
+    border-radius: 50%;
+}
+
+.section3 .info1 {
+    display: block;
+}
+.section3 .info2 {
+    display: none;
+}
+.section3 .info3 {
+    display: none;
+}
+.section3 .info4 {
+    display: none;
+}
+
+/* ====== 좌석 색상 변경하기 ====== */
+.section4 {
+    text-align: center;
+    overflow: hidden;    
+    margin: 0 auto;
+    padding: 70px;
+}
+
+.section4 .seat2 {
+    margin: 3px;
+}
+
+.section4 .seatinfobtn {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #999;
+    margin: 5px;
+}
+
+.section4 .seatinfobtn:hover {
+    border: 3px solid ;
+    border-radius: 50%;
+}
+
+.section4 .seatinfo1 {
+    display: block;
+}
+.section4 .seatinfo2 {
+    display: none;
+}
+.section4 .seatinfo3 {
+    display: none;
+}
+
+/* ===== result img =====*/
+.section5 {
+    text-align: center;
+    padding: 30px;
+}
+
+.section5 .text {
+    padding: 50px;
+    font-size: 20px;
+}
+
+
+/* ========modal ============*/
+.modal_wrap{
+    display: none;
+    width: 500px;
+    height: 500px;
+    position: fixed;
+    top:50%;
+    left: 50%;
+    margin: -250px 0 0 -250px;
+    background:#eee;
+    z-index: 2;
+
+}
+.black_bg{
+    display: none;
+    position: fixed;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0,0, 0.5);
+    top:0;
+    left: 0;
+    z-index: 1;
+}
+.modal_close{
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    top: -30px;
+    right: 0;
+}
+.modal_close> a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background:url(https://img.icons8.com/metro/26/000000/close-window.png);
+    text-indent: -9999px;
+}
+
+.modal_text {
+    margin: 10px;
+}
+
+.modal_btn {
+    border: none;
+}
+
+/* =========휠 =============*/
+.section6 {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.section6 .wheeltxt{
+    margin-top: 30px;
+    font-size: 20px;
+}
